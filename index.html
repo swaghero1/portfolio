@@ -86,8 +86,65 @@
     </section>  --> 
 
 
+    <section class="graphic-section">
+
+  <!-- Flippable Card -->
+  <div class="card-wrapper" id="flip-card">
+    <div class="card-inner">
+      <div class="card-front">
+        <img src="cardfront.png" alt="Card Front" class="card-img">
+      </div>
+      <div class="card-back">
+        <img src="cardback.png" alt="Card Back" class="card-img">
+      </div>
+    </div>
+  </div>
+
+  <!-- Title -->
+  <h2 class="graphic-title">Graphic Design, <span>click here</span></h2>
+
+  <!-- Spiral Arrow -->
+  <div class="spiral-arrow"></div>
+
+  <script>
+    const card = document.getElementById('flip-card');
+    card.addEventListener('click', () => {
+      card.classList.toggle('flipped');
+    });
+  </script>
+</section>
+
       
-    
+    <section class="showcase">
+  <!-- First Section -->
+  <div class="showcase-section">
+    <div class="showcase-text">
+      <h2>
+        <span class="highlight-text">Minimalist, Sleek, Neat, and Elegant</span><br>
+        just for you.
+      </h2>
+      <p>A clean, timeless aesthetic designed to let your vision stand out beautifully.</p>
+    </div>
+    <div class="showcase-image">
+      <img src="photo1.png" alt="Minimalist Design">
+    </div>
+  </div>
+
+  <!-- Second Section -->
+  <div class="showcase-section reverse">
+    <div class="showcase-text">
+      <h2>
+        <span class="highlight-text">Urban, or anything,</span><br>
+        everything will be catered for you.
+      </h2>
+      <p>Whether modern or edgy, each concept is crafted with precision and intent.</p>
+    </div>
+    <div class="showcase-image">
+      <img src="photo2.png" alt="Urban Design">
+    </div>
+  </div>
+</section>
+
     
 
     <section class="workspace-section">
